@@ -44,7 +44,7 @@ info:
   build.version: $project.version$
 ---
 server:
-  port: 8002 #注册中心占用8002端口号，冒号后面必须有空格
+  port: 8001 #注册中心占用8002端口号，冒号后面必须有空格
 
 spring:
   profiles: test  #开发环境
@@ -74,7 +74,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
      
   instance:
-    instance-id: dept-8002.com  
+    instance-id: dept-8001.com  
     prefer-ip-address: true       
 
 info:
